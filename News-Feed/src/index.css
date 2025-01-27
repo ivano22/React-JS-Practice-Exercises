@@ -1,0 +1,44 @@
+@import "tailwindcss";
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+h3 {
+  margin: 0;
+  color: #333;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+} */
+
+input::placeholder {
+  color: #888;
+}
